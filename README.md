@@ -2,7 +2,7 @@
 Case study and artificial Instances for the asymmetric periodic vehicle routing problems designed according to the requirements of  a waste collection company.
 
 The data is organized in [GeoJson](https://it.wikipedia.org/wiki/GeoJSON) files, the info entry contains all the information required for the 
-vehicles, e.g. size of the fleet, and the planning, e.g.  planning Horizon. The information on the nodes, the customers, is within the features entry. 
+vehicles, e.g. size of the fleet, and the planning, e.g.  planning Horizon. The information on the nodes, i.e., depot, customers, and intermediate facilities, is within the features entry. 
 
 ```json
 {"type": "FeatureCollection",
