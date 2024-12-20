@@ -4,7 +4,7 @@ Case study and artificial Instances for the asymmetric periodic vehicle routing 
 The data is organized in [GeoJson](https://it.wikipedia.org/wiki/GeoJSON) files, the info entry contains all the information required for the 
 vehicles, e.g. size of the fleet, and the planning, e.g.  planning Horizon. The information on the nodes, the customers, is within the features entry. 
 
-```
+```json
 {"type": "FeatureCollection",
  "info": { "numVehicles": 2, ...},
  "features": [
@@ -12,7 +12,7 @@ vehicles, e.g. size of the fleet, and the planning, e.g.  planning Horizon. The 
                 "id": "0",
                 "type": "Feature",
                 "properties": {"id": 0, "type": "depot",...},
-                "geometry": {"type": "Point", "coordinates":..}
+                "geometry": {"type": "Point", "coordinates":[...]}
                },
               ...
 ]}
@@ -24,3 +24,6 @@ It is recommended that the following libraries be used for the reading of the in
 
 It is recommended that the following library be used for the visualizing the instances:
 - Python: [geopandas](https://geopandas.org/en/stable/)
+
+> **Note:**
+> The coordinates of the customers in the case study are not provided.
