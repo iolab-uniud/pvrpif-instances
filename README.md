@@ -5,7 +5,8 @@ Case study and artificial Instances for the asymmetric periodic vehicle routing 
 
 The data is organized in [GeoJson](https://it.wikipedia.org/wiki/GeoJSON) files, the info entry contains all the information required for the 
 vehicles, e.g. size of the fleet, and the planning, e.g.  planning Horizon. The information on the nodes, i.e., depot, customers, and intermediate facilities, is within the features entry. 
-Moreover, the travel time matrix ([[int]]) is stored in the duration entry,  and for the case study the adjacency matrix ([[bool]])  in the adjacency entry. 
+Moreover, the travel time matrix ([[int]]) is stored in the duration entry,  and for the case study the adjacency matrix ([[bool]])  in the adjacency entry.
+The travel time is the actual road time and is calculated by [OSRM](https://project-osrm.org/) using the [OSM](https://www.openstreetmap.org/)'s road layout. 
 
 ```json
 {"type": "FeatureCollection",
@@ -34,6 +35,7 @@ It is recommended to use the following library to visualise the instances:
 - Python: [geopandas](https://geopandas.org/en/stable/)
 <p align="center"  >
   <img width="500" height="500" src="instanceExample.png"/>
+  <figcaption>The figure illustrates one of the instances. The red dots represent the bins, while the blue and green dots represent the depot and intermediate facilities respectively.</figcaption>
 </p>
 
 
