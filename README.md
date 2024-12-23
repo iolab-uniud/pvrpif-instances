@@ -1,6 +1,8 @@
 # Instances for the Periodic Vehicle Routing with Intermediate Facilities: Waste Collection
 Case study and artificial Instances for the asymmetric periodic vehicle routing problems designed according to the requirements of  a waste collection company.
 
+
+
 The data is organized in [GeoJson](https://it.wikipedia.org/wiki/GeoJSON) files, the info entry contains all the information required for the 
 vehicles, e.g. size of the fleet, and the planning, e.g.  planning Horizon. The information on the nodes, i.e., depot, customers, and intermediate facilities, is within the features entry. 
 Moreover, the travel time matrix ([[int]]) is stored in the duration entry,  and for the case study the adjacency matrix ([[bool]])  in the adjacency entry. 
@@ -20,6 +22,9 @@ Moreover, the travel time matrix ([[int]]) is stored in the duration entry,  and
 "duration": [[....],[....],]
 }
 ```
+> **Note:**
+> The coordinates of the customers in the case study are not provided, namely are all set equal to [0,0].
+
 
 It is recommended that the following libraries be used for the reading of the instances:
 - C++: [nlohmann](https://github.com/nlohmann/json)
@@ -27,6 +32,8 @@ It is recommended that the following libraries be used for the reading of the in
 
 It is recommended to use the following library to visualise the instances:
 - Python: [geopandas](https://geopandas.org/en/stable/)
+<p align="center"  >
+  <img width="500" height="500" src="instanceExample.png"/>
+</p>
 
-> **Note:**
-> The coordinates of the customers in the case study are not provided.
+
