@@ -1,5 +1,6 @@
 # Instances for the Periodic Vehicle Routing with Intermediate Facilities: Waste Collection
 Case study and artificial Instances for the asymmetric periodic vehicle routing problems designed according to the requirements of  a waste collection company.
+Authors: [Francesco Taverna](https://dmif.uniud.it/it/didattica/dottorato/iai/dottorandi/francesco-taverna), [Christian Tilk](https://busan.univie.ac.at/members/members-of-research-group-prescriptive-business-analytics/ass-prof-dr-christian-tilk/).
 
 ## Structure of the instances
 The data is organized in [GeoJson](https://it.wikipedia.org/wiki/GeoJSON) files, the info entry contains all the information required for the 
