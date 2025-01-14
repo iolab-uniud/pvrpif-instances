@@ -1,5 +1,5 @@
 # Instances for the Periodic Vehicle Routing with Intermediate Facilities: Waste Collection
-Case study and artificial Instances for the asymmetric periodic vehicle routing problems designed according to the requirements of  a waste collection company.
+Case study and artificial Instances for the asymmetric periodic vehicle routing problems with intermediate facilities (PVRP-IF, [Angelelli and Speranza](https://doi.org/10.1016/S0377-2217(01)00206-5) ) designed according to the requirements of  a waste collection company.
 Authors: [Francesco Taverna](https://dmif.uniud.it/it/didattica/dottorato/iai/dottorandi/francesco-taverna), [Christian Tilk](https://busan.univie.ac.at/members/members-of-research-group-prescriptive-business-analytics/ass-prof-dr-christian-tilk/).
 
 ## Structure of the instances
