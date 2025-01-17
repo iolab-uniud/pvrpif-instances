@@ -31,12 +31,14 @@ It is recommended that the following libraries be used for the reading of the in
 - C++: [nlohmann](https://github.com/nlohmann/json)
 - Python: [json package](https://docs.python.org/3/library/json.html)
 
-## To visualise the instances
-It is recommended to use the following library to visualise the instances:
+## To display the instances
+To display the instances it is recommended to use the following library:
 - Python: [geopandas](https://geopandas.org/en/stable/)
 <p align="center"  >
   <img width="500" height="500" src="instanceExample.png"/>
   <figcaption>The figure illustrates one of the instances. The red dots represent the bins, while the blue and green dots represent the depot and intermediate facilities respectively.</figcaption>
 </p>
+
+## To generate new instances
 
 
