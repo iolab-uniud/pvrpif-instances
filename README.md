@@ -61,7 +61,7 @@ The table below shows the results obtained for the novel instances with the MIP 
       <tr>
         <th></th>
         <th colspan="2" halign="left">MIP</th>
-        <th colspan="2" halign="left">Solution</th>
+        <th colspan="2" halign="left">BCP</th>
         <th colspan="2" halign="left">Best</th>
       </tr>
       <tr>
