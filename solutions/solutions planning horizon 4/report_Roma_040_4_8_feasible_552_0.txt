@@ -1,0 +1,93 @@
+Solution for Roma_040_4_8 with cost 552.0  is feasible.
+
+Route are feasible: True
+    demand feasible: True
+    time feasible: True
+    right depot: True
+Vehicle usage per day is within the available fleet limit: True
+    num vehicles per day: {0: 1, 1: 2, 2: 1, 3: 1}
+Assigned visiting schemes meet customer requirements: True
+____________________________________________________________________________________________________
+
+
+Instance info:
+MaxDuration: 250, MaxCapacity: 116
+PlanningHorizon: 4, NumVehicles: 2
+Index of the depot each day: {0: 0, 1: 0, 2: 0, 3: 0}
+____________________________________________________________________________________________________
+
+Day: 0: Vehicle:0 time: 232.0  time_feasible: True  demand_feasible: True  right_depot: True cost:134.0
+         0     1     2     3     4     5     6     7      8      9      10     11     12     13     14     15     16     17     18     19     20     21
+path    0.0  40.0  25.0  38.0   7.0  33.0  17.0  26.0    8.0   11.0   42.0   24.0   29.0   14.0    2.0    6.0   21.0   10.0   39.0   30.0   41.0    0.0
+demand  0.0  15.0  30.0  42.0  53.0  65.0  76.0  91.0  102.0  112.0    0.0   13.0   27.0   39.0   48.0   61.0   73.0   86.0   97.0  110.0    0.0    0.0
+time    0.0  12.0  29.0  41.0  52.0  58.0  71.0  86.0  104.0  110.0  121.0  129.0  145.0  156.0  163.0  170.0  180.0  191.0  198.0  207.0  224.0  232.0
+__________________________________________________
+Day: 1: Vehicle:0 time: 210.0  time_feasible: True  demand_feasible: True  right_depot: True cost:107.0
+         0     1     2     3     4     5     6     7      8     9     10     11     12     13     14     15     16     17     18     19     20
+path    0.0  22.0  23.0  15.0  35.0   9.0  18.0  19.0   34.0  42.0   3.0    8.0   27.0   37.0   36.0    7.0   32.0   20.0   28.0   41.0    0.0
+demand  0.0  10.0  24.0  42.0  57.0  72.0  83.0  96.0  109.0   0.0  10.0   21.0   36.0   47.0   62.0   73.0   87.0  100.0  112.0    0.0    0.0
+time    0.0   7.0  13.0  23.0  38.0  51.0  64.0  71.0   84.0  94.0  98.0  106.0  114.0  128.0  140.0  160.0  167.0  175.0  185.0  202.0  210.0
+__________________________________________________
+Day: 1: Vehicle:1 time: 107.0  time_feasible: True  demand_feasible: True  right_depot: True cost:54.0
+          0     1     2     3     4     5     6     7     8      9
+path    0.0  12.0  13.0   1.0  40.0   4.0  16.0   5.0  41.0    0.0
+demand  0.0  17.0  28.0  44.0  59.0  73.0  90.0  99.0   0.0    0.0
+time    0.0  12.0  27.0  34.0  50.0  69.0  79.0  92.0  99.0  107.0
+__________________________________________________
+Day: 2: Vehicle:0 time: 233.0  time_feasible: True  demand_feasible: True  right_depot: True cost:135.0
+         0     1     2     3     4     5     6     7      8      9      10     11     12     13     14     15     16     17     18     19     20     21
+path    0.0  40.0  25.0  38.0   7.0  33.0  31.0  17.0   26.0    8.0   42.0   11.0   24.0   29.0   14.0    2.0    6.0   21.0   39.0   30.0   41.0    0.0
+demand  0.0  15.0  30.0  42.0  53.0  65.0  78.0  89.0  104.0  115.0    0.0   10.0   23.0   37.0   49.0   58.0   71.0   83.0   94.0  107.0    0.0    0.0
+time    0.0  12.0  29.0  41.0  52.0  58.0  69.0  80.0   95.0  113.0  122.0  127.0  138.0  154.0  165.0  172.0  179.0  189.0  199.0  208.0  225.0  233.0
+__________________________________________________
+Day: 3: Vehicle:0 time: 246.0  time_feasible: True  demand_feasible: True  right_depot: True cost:122.0
+         0     1     2     3     4     5     6     7      8      9      10     11     12     13     14     15     16     17     18     19     20     21
+path    0.0  22.0  15.0  35.0   9.0  36.0  27.0   8.0   34.0   42.0    7.0   32.0   20.0   12.0   13.0    1.0   40.0    4.0   41.0   16.0   41.0    0.0
+demand  0.0  10.0  28.0  43.0  58.0  73.0  88.0  99.0  112.0    0.0   11.0   25.0   38.0   55.0   66.0   82.0   97.0  111.0    0.0   17.0    0.0    0.0
+time    0.0   7.0  14.0  29.0  42.0  57.0  72.0  86.0   99.0  109.0  123.0  130.0  138.0  150.0  165.0  172.0  188.0  207.0  220.0  223.0  238.0  246.0
+__________________________________________________
+____________________________________________________________________________________________________
+Check the assigned schemes:
+Scheme(0): options: []  assigned: [0, 1, 2, 3]  Correct: True
+Scheme(1): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(2): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(3): options: [[0], [1], [2], [3]]  assigned: [1]  Correct: True
+Scheme(4): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(5): options: [[0], [1], [2], [3]]  assigned: [1]  Correct: True
+Scheme(6): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(7): options: [[0, 1, 2, 3]]  assigned: [0, 1, 2, 3]  Correct: True
+Scheme(8): options: [[0, 1, 2, 3]]  assigned: [0, 1, 2, 3]  Correct: True
+Scheme(9): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(10): options: [[0], [1], [2], [3]]  assigned: [0]  Correct: True
+Scheme(11): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(12): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(13): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(14): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(15): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(16): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(17): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(18): options: [[0], [1], [2], [3]]  assigned: [1]  Correct: True
+Scheme(19): options: [[0], [1], [2], [3]]  assigned: [1]  Correct: True
+Scheme(20): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(21): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(22): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(23): options: [[0], [1], [2], [3]]  assigned: [1]  Correct: True
+Scheme(24): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(25): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(26): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(27): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(28): options: [[0], [1], [2], [3]]  assigned: [1]  Correct: True
+Scheme(29): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(30): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(31): options: [[0], [1], [2], [3]]  assigned: [2]  Correct: True
+Scheme(32): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(33): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(34): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(35): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(36): options: [[0, 2], [1, 3]]  assigned: [1, 3]  Correct: True
+Scheme(37): options: [[0], [1], [2], [3]]  assigned: [1]  Correct: True
+Scheme(38): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(39): options: [[0, 2], [1, 3]]  assigned: [0, 2]  Correct: True
+Scheme(40): options: [[0, 1, 2, 3]]  assigned: [0, 1, 2, 3]  Correct: True
+Scheme(41): options: []  assigned: [0, 1, 2, 3]  Correct: True
+Scheme(42): options: []  assigned: [0, 1, 2, 3]  Correct: True
